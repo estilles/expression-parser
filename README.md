@@ -99,5 +99,5 @@ resolve(parsedExpression[, values]) => result
 
 e.g.
 resolve(parse('1+2*3/4')) => 2.5
-resolve(parse('(a+b)^2*c), { a: 1, b: 2, c: 3}) => 27
+resolve(parse('(a+b)^2*c'), { a: 1, b: 2, c: 3}) => 27
 ```
