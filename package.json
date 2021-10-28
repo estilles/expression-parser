@@ -19,6 +19,9 @@
 		"type": "git",
 		"url": "https://github.com/estilles/expression-parser.git"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"keywords": [],
 	"author": "Jonnny Estilles <johnny@estilles.com>",
 	"license": "ISC",
