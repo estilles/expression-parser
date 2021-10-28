@@ -85,20 +85,19 @@ describe('resolver', function () {
 	})
 
 	describe('expressions with errors', function () {
-        it('should detect missing symbol values', function() {
-            const fn = () => resolve(parse('a + 1'))
-            expect(fn).to.throw(/Missing values/)
-    
-        })
+		it('should detect missing symbol values', function () {
+			const fn = () => resolve(parse('a + 1'))
+			expect(fn).to.throw(/Missing values/)
+		})
 
-        it('should detect missing operands', function() {
-            const fn = () => resolve(parse('1 +'))
-            expect(fn).to.throw(/Missing operands/)
-        })
+		it('should detect missing operands', function () {
+			const fn = () => resolve(parse('1 +'))
+			expect(fn).to.throw(/Missing operands/)
+		})
 
-        it('should detect extraneous operands', function() {
-            const fn = () => resolve(parse('10 + 10 20 30'))
-            expect(fn).to.throw(/Too many operands/)
-        })
-    })
+		it('should detect extraneous operands', function () {
+			const fn = () => resolve(parse('10 + 10 20 30'))
+			expect(fn).to.throw(/Too many operands/)
+		})
+	})
 })
