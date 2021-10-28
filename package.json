@@ -1,27 +1,27 @@
 {
-  "name": "@estilles/expression-parser",
-  "version": "1.0.0",
-  "description": "Customizable Infix to Postfix Converter/Resolver",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "devDependencies": {
-    "chai": "^4.3.4",
-    "mocha": "^9.1.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/estilles/expression-parser.git"
-  },
-  "keywords": [],
-  "author": "Jonnny Estilles <johnny@estilles.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/estilles/expression-parser/issues"
-  },
-  "homepage": "https://github.com/estilles/expression-parser#readme"
+	"name": "@estilles/expression-parser",
+	"version": "1.0.0",
+	"description": "Customizable Infix to Postfix Converter/Resolver",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"directories": {
+		"test": "test"
+	},
+	"devDependencies": {
+		"chai": "^4.3.4",
+		"mocha": "^9.1.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/estilles/expression-parser.git"
+	},
+	"keywords": [],
+	"author": "Jonnny Estilles <johnny@estilles.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/estilles/expression-parser/issues"
+	},
+	"homepage": "https://github.com/estilles/expression-parser#readme"
 }
