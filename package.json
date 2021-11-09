@@ -1,6 +1,6 @@
 {
 	"name": "@estilles/expression-parser",
-	"version": "0.0.0-development",
+	"version": "1.0.0",
 	"description": "Customizable Infix to Postfix Converter/Resolver",
 	"main": "src/index.js",
 	"scripts": {
