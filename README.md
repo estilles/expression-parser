@@ -1,5 +1,7 @@
 <h1 align="center" style="border-bottom: none;">expression-parser</h1>
 <h3 align="center">Customizable Infix to Postfix Converter/Resolver</h3>
+<hr>
+<div align="center"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@estilles/expression-parser"></div>
 
 **expression-parser** is yet another infix to postfix/reverse polish notation converter. I created it because I needed the ability to parse expressions with symbols/identifiers/variables of different formats.
 
